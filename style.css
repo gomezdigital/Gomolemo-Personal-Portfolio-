@@ -86,6 +86,7 @@ a { color: inherit; }
 .feature-grid .content-card { min-width: 0; }
 .project-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
 .project-card { position: relative; min-height: 280px; }
+.project-evidence { display: block; width: 100%; height: auto; max-height: 260px; margin: 14px 0 18px; object-fit: contain; object-position: left center; border: 1px solid var(--line); border-radius: 8px; background: #f8f9fb; }
 .project-number { display: inline-grid; place-items: center; width: 35px; height: 35px; margin-bottom: 26px; border-radius: 50%; background: #fff2e6; color: #bf6c24; font-size: 11px; font-weight: 800; }
 .project-card .text-link { display: inline-block; margin: 5px 0 15px; }
 .site-footer { padding: 45px 0 18px; color: white; background: var(--dark); }
